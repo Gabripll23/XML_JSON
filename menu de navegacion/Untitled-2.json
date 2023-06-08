@@ -1,0 +1,37 @@
+{
+    "publicaciones": [
+      {
+        "titulo": "El impacto de la contaminación en los ecosistemas marinos",
+        "autores": [
+          {
+            "nombre": "Juan Pérez",
+            "afiliacion": "Facultad de Ciencias Marinas"
+          },
+          {
+            "nombre": "María González",
+            "afiliacion": "Facultad de Biología"
+          }
+        ],
+        "resumen": "Estudio que analiza los efectos de la contaminación en los ecosistemas marinos, centrándose en la biodiversidad y la salud de las especies marinas. Se presentan los resultados de un estudio de caso realizado en la costa de Manabí.",
+        "palabras_clave": ["contaminación", "ecosistemas marinos", "biodiversidad", "especies marinas", "costa de Manabí"],
+        "fecha_publicacion": "2022-05-15"
+      },
+      {
+        "titulo": "Avances en el tratamiento del cáncer de pulmón",
+        "autores": [
+          {
+            "nombre": "Roberto Gómez",
+            "afiliacion": "Facultad de Medicina"
+          },
+          {
+            "nombre": "Carolina Rodríguez",
+            "afiliacion": "Facultad de Farmacia"
+          }
+        ],
+        "resumen": "Investigación que presenta los últimos avances en el tratamiento del cáncer de pulmón, incluyendo terapias dirigidas y técnicas quirúrgicas. Se discuten los resultados de ensayos clínicos realizados en pacientes de ULEAM.",
+        "palabras_clave": ["cáncer de pulmón", "terapias dirigidas", "ensayos clínicos", "pacientes de ULEAM"],
+        "fecha_publicacion": "2023-02-28"
+      }
+    ]
+  }
+  

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios de Contacto de Trabajos</title>
+  <style>
+    /* Estilos CSS para la apariencia */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #E0FFFF; /* Color de fondo celeste */
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .container {
+      margin: 20px;
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    label, input, textarea, select {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+    
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Servicios de Contacto de Trabajos</h1>
+  </header>
+  
+  <div class="container">
+    <form id="contact-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      
+      <label for="phone">Teléfono:</label>
+      <input type="tel" id="phone">
+      
+      <label for="job-category">Categoría de Trabajo:</label>
+      <select id="job-category">
+        <option value="">Seleccionar</option>
+        <option value="programacion">Programación</option>
+        <option value="diseno">Diseño</option>
+        <option value="marketing">Marketing</option>
+        <option value="traduccion">Traducción</option>
+        <option value="otros">Otros</option>
+      </select>
+      
+      <label for="message">Mensaje:</label>
+      <textarea id="message" rows="5" required></textarea>
+      
+      <input type="submit" value="Enviar">
+    </form>
+    
+    <div id="result"></div>
+  </div>
+  
+  <script>
+    // Envío del formulario
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('phone').value;
+      var jobCategory = document.getElementById('job-category').value;
+      var message = document.getElementById('message').value;
+      
+      //
+
+

@@ -1,0 +1,50 @@
+<publicaciones>
+  <publicacion>
+    <titulo>El impacto de la contaminación en los ecosistemas marinos</titulo>
+    <autores>
+      <autor>
+        <nombre>Juan Pérez</nombre>
+        <afiliacion>Facultad de Ciencias Marinas</afiliacion>
+      </autor>
+      <autor>
+        <nombre>María González</nombre>
+        <afiliacion>Facultad de Biología</afiliacion>
+      </autor>
+    </autores>
+    <resumen>
+      Estudio que analiza los efectos de la contaminación en los ecosistemas marinos, centrándose en la biodiversidad y la salud de las especies marinas. Se presentan los resultados de un estudio de caso realizado en la costa de Manabí.
+    </resumen>
+    <palabras_clave>
+      <palabra>contaminación</palabra>
+      <palabra>ecosistemas marinos</palabra>
+      <palabra>biodiversidad</palabra>
+      <palabra>especies marinas</palabra>
+      <palabra>costa de Manabí</palabra>
+    </palabras_clave>
+    <fecha_publicacion>2022-05-15</fecha_publicacion>
+  </publicacion>
+  
+  <publicacion>
+    <titulo>Avances en el tratamiento del cáncer de pulmón</titulo>
+    <autores>
+      <autor>
+        <nombre>Roberto Gómez</nombre>
+        <afiliacion>Facultad de Medicina</afiliacion>
+      </autor>
+      <autor>
+        <nombre>Carolina Rodríguez</nombre>
+        <afiliacion>Facultad de Farmacia</afiliacion>
+      </autor>
+    </autores>
+    <resumen>
+      Investigación que presenta los últimos avances en el tratamiento del cáncer de pulmón, incluyendo terapias dirigidas y técnicas quirúrgicas. Se discuten los resultados de ensayos clínicos realizados en pacientes de ULEAM.
+    </resumen>
+    <palabras_clave>
+      <palabra>cáncer de pulmón</palabra>
+      <palabra>terapias dirigidas</palabra>
+      <palabra>ensayos clínicos</palabra>
+      <palabra>pacientes de ULEAM</palabra>
+    </palabras_clave>
+    <fecha_publicacion>2023-02-28</fecha_publicacion>
+  </publicacion>
+</publicaciones>
